@@ -1,0 +1,27 @@
+
+
+font-family: 'Roboto', sans-serif;
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+            
+    
+}
+.wagha{
+    
+    background-image: url(tattood-man-using-creative-technology.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+        height: 890px;
+
+    
+
+}
+.navo {
+    background-color: rgba(0,0,0,0.05);
+}
+.marg{
+    margin-bottom: 50px;
+}
