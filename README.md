@@ -4,7 +4,7 @@ Landing Page
 
 ## Built With
 
-* HTMl
+* HTML
 * CSS
 * [Bootstrap 4](https://getbootstrap.com/) - The CSS framework used
 
