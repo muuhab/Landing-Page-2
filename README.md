@@ -4,8 +4,8 @@ Landing Page
 
 ## Built With
 
-* [HTMl](https://maven.apache.org/) 
-* [CSS](https://rometools.github.io/rome/) 
+* [HTMl]
+* [CSS]
 * [Bootstrap 4](https://getbootstrap.com/) - The CSS framework used
 
 ## Sample Of The Website
