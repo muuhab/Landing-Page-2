@@ -46,7 +46,7 @@ header h1{
   font-size: 4vw;
 }
 h2{
-  font-size: 4vw;
+  font-size: 4em;
   font-weight: lighter;
 }
 @media screen and (max-width:768px) {
@@ -57,7 +57,7 @@ h2{
     margin-left: 20px;
   }
   .midDiv h2{
-    margin-top: 50px;
+    margin-top: 20px;
   }
   header{
     font-size: 0.9em;
@@ -74,6 +74,12 @@ h2{
   }
   .sec-res{
     text-align: center;
+  }
+  h2{
+    font-size: 2em;
+  }
+  .middleCol{
+    margin: 60px 0px
   }
 }
 @media screen and (min-width:768px){
