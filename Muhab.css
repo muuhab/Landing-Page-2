@@ -1,27 +1,74 @@
-
-
-font-family: 'Roboto', sans-serif;
 body{
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    
-            
-    
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
-.wagha{
-    
-    background-image: url(tattood-man-using-creative-technology.jpg);
-      background-repeat: no-repeat;
-      background-size: cover;
-        height: 890px;
+header{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top:30%;
+    z-index: 10;
+    color: white;
+    font-size: 1.3em;
+}
+header h1{
+  height: 10px;
+}
 
-    
-
+.layout {
+  background-image: url(tattood-man-using-creative-technology.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
+  height: 100vh;
 }
-.navo {
-    background-color: rgba(0,0,0,0.05);
+.main-buttons{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  top: 70%;
 }
-.marg{
-    margin-bottom: 50px;
+.navo, header {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.marg {
+  margin-bottom: 50px;
+}
+.ico{
+  font-size: 5vw;
+}
+.price{
+  font-size: 4vw;
+}
+h2{
+  font-size: 4vw;
+  font-weight: lighter;
+}
+@media screen and (max-width:768px) {
+  .col-res{
+    margin: 60px 0px;
+  }
+  .midDiv h2{
+    margin-top: 50px;
+  }
+  header{
+    font-size: 0.9em;
+  }
+  header h1{
+    height: 1px;
+  }
+  .main-buttons{
+    top: 60%;
+  }
+}
+@media screen and (min-width:768px){
+  .middleCol{
+    margin: 200px 0px;
+  }
+  
 }
