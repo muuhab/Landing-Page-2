@@ -58,12 +58,16 @@ h2{
   }
   header{
     font-size: 0.9em;
+    top:20%;
   }
   header h1{
     height: 1px;
   }
   .main-buttons{
-    top: 60%;
+    top: 50%;
+  }
+  .layout{
+    height: 70vh;
   }
 }
 @media screen and (min-width:768px){
