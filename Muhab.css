@@ -53,6 +53,9 @@ h2{
   .col-res{
     margin: 60px 0px;
   }
+  .navbar-brand{
+    margin-left: 20px;
+  }
   .midDiv h2{
     margin-top: 50px;
   }
@@ -69,10 +72,16 @@ h2{
   .layout{
     height: 70vh;
   }
+  .sec-res{
+    text-align: center;
+  }
 }
 @media screen and (min-width:768px){
   .middleCol{
     margin: 200px 0px;
+  }
+  .main-buttons a{
+    padding:15px 40px;
   }
   
 }
