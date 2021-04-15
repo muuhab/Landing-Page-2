@@ -2,12 +2,12 @@ $(function(){
         //NavScroll change color
         $(window).on('scroll',function(){
             var scroll = $(window).scrollTop();
-            if (scroll > 50) {
-              $("nav").addClass("bg-dark");
+            if (scroll > 100) {
+              $("nav").addClass("nav");
             }
       
             else{
-                $("nav").removeClass("bg-dark");  	
+                $("nav").removeClass("nav");  	
             }
         })
         
