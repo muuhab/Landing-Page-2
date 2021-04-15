@@ -2,7 +2,7 @@ $(function(){
         //NavScroll change color
         $(window).on('scroll',function(){
             var scroll = $(window).scrollTop();
-            if (scroll > 300) {
+            if (scroll > 50) {
               $("nav").addClass("bg-dark");
             }
       
